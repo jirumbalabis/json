@@ -1,0 +1,31 @@
+body {
+	background-image: url("21.jpg");
+	background-color: #cccccc;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 40;
+	font-family: Cheese Butter Cream;
+	color: #DFDDC4;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
